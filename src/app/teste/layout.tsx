@@ -1,12 +1,11 @@
 import { Paragraph } from '@/components/paragraph'
-import './globals.css'
 
 export const metadata = {
   title: 'Next 13 + tailwindcss',
   description: 'Project Next 13 with tailwindcss',
 }
 
-export default function RootLayout({
+export default function TesteLayout({
   children,
 }: {
   children: React.ReactNode
